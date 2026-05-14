@@ -10,12 +10,13 @@ export default function Footer() {
                 D
               </span>
               <span className="font-display text-base font-medium tracking-tight">
-                DonLabs
+                Don Labs
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-white/55">
-              A staff engineer-led AI consultancy. We help ambitious teams turn
-              AI from a roadmap bullet into shipped product.
+              Done-For-You AI for businesses that know they should be using it
+              but don&apos;t know where to start. We build it, teach you, wire
+              Claude in, and leave you running it.
             </p>
           </div>
 
@@ -26,17 +27,17 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm">
               <li>
                 <a href="#approach" className="text-white/75 hover:text-white">
-                  Approach
+                  How it works
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-white/75 hover:text-white">
-                  Services
+                  What we build
                 </a>
               </li>
               <li>
                 <a href="#work" className="text-white/75 hover:text-white">
-                  Work
+                  About Don
                 </a>
               </li>
               <li>
@@ -72,12 +73,12 @@ export default function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Book a call
+                  Book a strategy call
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/company/donlabs"
+                  href="https://www.linkedin.com/in/dondemetrius"
                   className="text-white/75 hover:text-white"
                   target="_blank"
                   rel="noreferrer"
@@ -85,12 +86,15 @@ export default function Footer() {
                   LinkedIn
                 </a>
               </li>
+              <li>
+                <span className="text-white/75">donlabs.ai</span>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/40 md:flex-row md:items-center">
-          <div>© {year} DonLabs Ltd. All rights reserved.</div>
+          <div>© {year} Don Labs. All rights reserved. · donlabs.ai</div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white/70">
               Privacy

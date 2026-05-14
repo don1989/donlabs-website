@@ -1,39 +1,39 @@
 const services = [
   {
-    tag: "Strategy",
-    title: "AI roadmap & opportunity mapping",
+    tag: "Automation",
+    title: "Replace your spreadsheet rituals",
     body:
-      "We sit with your leadership and product teams, map the high-leverage opportunities, and rank them by feasibility, cost, and impact. You leave with a sequenced plan — not a 60-page deck.",
+      "The repeat work — quoting, reporting, chasing, reconciling — pulled out of spreadsheets and Slack threads and turned into an AI workflow that just runs. You watch it work; you don't operate it.",
   },
   {
-    tag: "Build",
-    title: "Production AI features",
+    tag: "Knowledge",
+    title: "Your own AI assistant, trained on your business",
     body:
-      "From RAG over messy internal docs to multi-step agents that actually do the job. We write the code, build the evals, wire up the observability, and hand it to you owning every line.",
+      "Drop your docs, SOPs, contracts, and past projects into a private Claude-powered assistant that answers in your voice and your context. Onboard staff faster. Stop being the only person who knows the thing.",
   },
   {
-    tag: "Build",
-    title: "Internal copilots & workflow automation",
+    tag: "Customer-facing",
+    title: "AI in your inbox, your forms, your funnel",
     body:
-      "Replace the spreadsheet, the Slack thread, and the 11-tab process. We design and ship copilots that fit how your team already works — and surface metrics so you can see the time-back.",
+      "Inbound leads triaged, quoted, and routed. Customer questions answered in seconds. We build the front-line AI so your team handles the work only humans should.",
   },
   {
-    tag: "Enablement",
-    title: "Team training & embedded engineering",
+    tag: "Research & Analysis",
+    title: "Done-For-You research and reporting",
     body:
-      "Workshops, pairing, and structured rituals so your engineers go from cautious to confident. We embed with one team at a time and leave them shipping AI without us.",
+      "Property comps, market scans, competitive intel, due-diligence packs — turned from a half-day job into a one-click report. Built around your data, with the sources cited so you can trust the output.",
   },
   {
-    tag: "Operate",
-    title: "AI ops, evals, and safety",
+    tag: "Onboarding",
+    title: "We get your team comfortable with AI",
     body:
-      "Quality regressions, cost blow-ups, and silent prompt-injection failures are the three reasons AI features get rolled back. We put the guardrails in before they bite.",
+      "Plain-English walkthroughs, recorded for whoever you hire next. No technical jargon. By the end, your team uses Claude like a co-worker — not a scary black box.",
   },
   {
-    tag: "Advisory",
-    title: "Fractional AI leadership",
+    tag: "Security",
+    title: "Security-first by default",
     body:
-      "If you&apos;re between hires, we plug in as a fractional VP of AI: hiring loops, vendor selection, board updates, and the unglamorous decisions that compound.",
+      "We design every system so your data stays yours, secrets stay secret, and nothing leaves your control without your sign-off. Fear of AI is usually a fear of losing control — we remove both.",
   },
 ];
 
@@ -43,16 +43,17 @@ export default function Services() {
       <div className="container-page">
         <div className="flex flex-col items-start md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <span className="eyebrow mb-4">What we do</span>
+            <span className="eyebrow mb-4">What we build</span>
             <h2 className="section-heading">
-              Six ways we plug in.
+              The work you keep meaning to fix.
               <br />
-              One bar: ship it.
+              We fix it with AI.
             </h2>
           </div>
           <p className="mt-6 max-w-md text-white/60 md:mt-0">
-            Most engagements blend two or three of the below. We&apos;ll tell
-            you which mix fits — and which ones you don&apos;t need.
+            Every engagement starts with one question: where is your team
+            spending hours on something a system should be doing? We build
+            around that — and only that.
           </p>
         </div>
 

@@ -1,32 +1,33 @@
 const tiers = [
   {
-    name: "Sprint",
-    price: "From £18k",
-    cadence: "fixed-scope, 2–4 weeks",
+    name: "AI Kickstart",
+    price: "From £4,500",
+    cadence: "fixed scope · 2–3 weeks",
     blurb:
-      "A focused engagement to ship one well-defined AI feature, or to de-risk a roadmap before you commit further.",
+      "One specific workflow — built, deployed, and handed over with Claude wired in. The fastest way to go from 'we should be doing this' to 'this is running'.",
     features: [
-      "One staff engineer, full-time",
-      "Discovery → working prototype",
-      "Eval suite + runbook",
-      "Async daily updates",
-      "Code lives in your repo",
+      "Strategy call to pick the right first win",
+      "Done-For-You build of one workflow or assistant",
+      "Claude connected so you can extend it yourself",
+      "Plain-English walkthrough + recorded training",
+      "30 days of support after handover",
     ],
-    cta: "Scope a sprint",
+    cta: "Book a strategy call",
     highlighted: false,
   },
   {
-    name: "Embedded",
-    price: "From £14k / month",
-    cadence: "rolling, 30-day notice",
+    name: "AI Install",
+    price: "From £12,000",
+    cadence: "fixed scope · 4–8 weeks",
     blurb:
-      "Our most popular engagement. We embed with one of your teams, ship continuously, and train your engineers to take over.",
+      "The full Done-For-You install. We pick two or three of the highest-leverage workflows, build the whole stack, secure it, and leave your team running everything without us.",
     features: [
-      "1–2 staff engineers, dedicated",
-      "Weekly demos to stakeholders",
-      "Full ops: evals, monitoring, on-call",
-      "Roadmap reviews + hiring support",
-      "Knowledge transfer baked in",
+      "Discovery + opportunity map for your business",
+      "Multiple workflows / assistants built end-to-end",
+      "Security review + safe data handling baked in",
+      "Claude wired into your day-to-day tools",
+      "Team training so you actually use it",
+      "60 days of support, then you own it",
     ],
     cta: "Start the conversation",
     highlighted: true,
@@ -42,11 +43,11 @@ export default function Pricing() {
           <h2 className="section-heading">
             Two ways in.
             <br />
-            Pick the one that fits.
+            Both fixed-price. Both yours to keep.
           </h2>
           <p className="mt-6 text-white/65 md:text-lg">
-            No retainers for slide decks. Every engagement is sized to a clear
-            outcome and reviewed at the end of each phase.
+            No monthly retainer trap. No mystery invoices. You pay for a
+            defined outcome — we build it, hand it over, and your team runs it.
           </p>
         </div>
 
@@ -113,8 +114,8 @@ export default function Pricing() {
         </div>
 
         <p className="mt-10 text-sm text-white/45">
-          Need something different? Fractional advisory, board-prep workshops,
-          and one-off audits all available — drop us a note.
+          Not sure which fits? Book a free strategy call — we&apos;ll tell you
+          honestly, even if the answer is &quot;you don&apos;t need us yet&quot;.
         </p>
       </div>
     </section>

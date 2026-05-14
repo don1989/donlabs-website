@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "#approach", label: "Approach" },
-  { href: "#services", label: "Services" },
-  { href: "#work", label: "Work" },
+  { href: "#approach", label: "How it works" },
+  { href: "#services", label: "What we build" },
+  { href: "#work", label: "Outcomes" },
   { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ" },
 ];
@@ -35,7 +35,7 @@ export default function Nav() {
             D
           </span>
           <span className="font-display text-base font-medium tracking-tight">
-            DonLabs
+            Don Labs
           </span>
         </a>
 

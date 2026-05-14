@@ -1,18 +1,21 @@
 const items = [
   {
-    big: "78%",
-    label: "of enterprise AI pilots never reach production",
-    src: "MIT Sloan Management Review, 2024",
+    big: "65%",
+    label: "of organisations now regularly use generative AI — nearly double in 10 months",
+    src: "McKinsey, State of AI 2024",
+    href: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2024",
   },
   {
-    big: "3.5×",
-    label: "ROI seen by AI-mature orgs vs. AI-laggards",
-    src: "McKinsey State of AI, 2024",
+    big: "95%",
+    label: "of enterprise generative-AI pilots deliver no measurable impact on P&L",
+    src: "MIT Project NANDA, State of AI in Business 2025",
+    href: "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/",
   },
   {
     big: "$15.7T",
-    label: "projected global GDP impact from AI by 2030",
-    src: "PwC Global AI Study",
+    label: "projected AI contribution to global GDP by 2030",
+    src: "PwC, Sizing the Prize",
+    href: "https://www.pwc.com/gx/en/issues/data-and-analytics/publications/artificial-intelligence-study.html",
   },
 ];
 
@@ -21,16 +24,17 @@ export default function Stats() {
     <section className="relative py-24 md:py-32">
       <div className="container-page">
         <div className="max-w-3xl">
-          <span className="eyebrow mb-4">The gap, in numbers</span>
+          <span className="eyebrow mb-4">Why now</span>
           <h2 className="section-heading">
-            The companies that figure this out
+            The businesses that figure AI out
             <br />
-            will outrun the ones that don&apos;t.
+            will leave the rest behind.
           </h2>
           <p className="mt-6 text-white/65 md:text-lg">
-            AI is the largest reorganisation of leverage in a generation. The
-            difference between the teams pulling away and the teams getting
-            stuck is rarely about model choice — it&apos;s about execution.
+            Most know they should be using AI. Few know where to start, and
+            fewer still get past a half-finished prototype. The gap isn&apos;t
+            the technology any more — it&apos;s having someone in your corner
+            who&apos;ll actually build it and hand it over working.
           </p>
         </div>
 
@@ -41,9 +45,25 @@ export default function Stats() {
                 {it.big}
               </div>
               <p className="mt-6 text-base text-white/80">{it.label}</p>
-              <p className="mt-4 text-xs uppercase tracking-wider text-white/40">
+              <a
+                href={it.href}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex items-center gap-1 text-xs uppercase tracking-wider text-white/40 underline-offset-4 transition hover:text-accent hover:underline"
+              >
                 {it.src}
-              </p>
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  aria-hidden
+                >
+                  <path d="M7 17L17 7M9 7h8v8" />
+                </svg>
+              </a>
             </div>
           ))}
         </div>

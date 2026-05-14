@@ -1,24 +1,24 @@
 const steps = [
   {
     n: "01",
-    title: "Discover",
+    title: "Map the wins",
     body:
-      "A working session — not a sales call. We pressure-test the problem, the data, and what 'good' looks like. You leave with a one-page plan whether or not we work together.",
-    bullets: ["Stakeholder interviews", "Data + tooling audit", "Risk register"],
+      "We get on a call, learn how your business actually runs, and pinpoint the two or three places AI will pay for itself fastest. You leave with a clear plan — even if we never work together.",
+    bullets: ["No jargon, no decks", "Honest about what AI can't do", "Security + data review up front"],
   },
   {
     n: "02",
-    title: "Build",
+    title: "We build it for you",
     body:
-      "We embed with your team and ship in weekly increments. Evals and observability go in on day one, so we measure progress in outcomes — not vibes.",
-    bullets: ["Prototype → MVP → production", "Eval suite + dashboards", "Code you own"],
+      "Done-For-You — not DIY, not Done-With-You. We design, build, and deploy the tools, automations and AI workflows your team needs. You don't need to learn LangChain. You don't need to hire a developer.",
+    bullets: ["Fixed scope, fixed timeline", "Connected to your real systems", "Security baked in from day one"],
   },
   {
     n: "03",
-    title: "Compound",
+    title: "Hand it over with Claude",
     body:
-      "Once it's live, we keep an eye on cost, latency, and quality. We hand over playbooks and train your team so the next AI feature is yours to ship.",
-    bullets: ["Monitoring + on-call", "Roadmap reviews", "Team enablement"],
+      "This is the part everyone else skips. We wire Claude into your setup, teach you and your team exactly how everything works, and leave you able to extend it yourself. No retainer trap. No developer who fucks off.",
+    bullets: ["Claude wired into your workflow", "Plain-English walkthroughs", "You own the code, the prompts, everything"],
   },
 ];
 
@@ -28,17 +28,17 @@ export default function HowWeWork() {
       <div className="container-page">
         <div className="flex flex-col items-start md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <span className="eyebrow mb-4">How we work</span>
+            <span className="eyebrow mb-4">How it works</span>
             <h2 className="section-heading">
-              Three phases.
+              We build it. We teach you.
               <br />
-              No surprises.
+              You run it.
             </h2>
           </div>
           <p className="mt-6 max-w-md text-white/60 md:mt-0">
-            Most AI projects stall between prototype and production. Our
-            engagement model is built around getting through that gap quickly,
-            then making sure you don&apos;t need us forever.
+            Most businesses get burned twice with AI: once by a developer who
+            charges a fortune and disappears, and once by a tool they can&apos;t
+            actually run. We do it the other way round.
           </p>
         </div>
 

@@ -8,14 +8,15 @@ export default function FinalCTA() {
             <div className="md:col-span-3">
               <span className="eyebrow mb-4">Let&apos;s talk</span>
               <h2 className="font-display text-4xl font-medium leading-[1.05] tracking-tightest md:text-6xl">
-                You have an AI idea.
+                Stop putting AI off.
                 <br />
-                We have the engineers to ship it.
+                Book the call.
               </h2>
               <p className="mt-6 max-w-xl text-white/70 md:text-lg">
-                Book a 30-minute working session. We&apos;ll pressure-test your
-                use case, sketch the rough shape of a solution, and you&apos;ll
-                leave with something useful whether or not we work together.
+                30 minutes, free, no pitch. We&apos;ll look at how your
+                business actually runs, pinpoint where AI will pay back
+                fastest, and you&apos;ll leave with a clear plan — whether or
+                not we work together.
               </p>
             </div>
 
@@ -40,10 +41,10 @@ export default function FinalCTA() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Book on Cal.com
+                  Book a free strategy call
                 </a>
                 <p className="mt-2 text-sm text-white/40">
-                  Replies within 1 business day, usually faster.
+                  Replies within 1 business day, usually the same day.
                 </p>
               </div>
             </div>
