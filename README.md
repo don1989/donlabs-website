@@ -22,6 +22,10 @@ npm run start
 
 ## Project layout
 
-- `src/app` — App Router entry (`layout.tsx`, `page.tsx`, `globals.css`)
+- `src/app` — App Router entry (`layout.tsx`, `page.tsx`, `globals.css`, `icon.svg`, route segments for `/privacy` and `/terms`)
 - `src/components` — Section components composed by `page.tsx`
-- `public` — Static assets (headshot, favicon, etc.)
+- `public` — Static assets (headshot, etc.)
+
+## Deployment
+
+Hosted on Hetzner via Coolify. Pushes to `main` trigger an automatic deploy through the `don1989-hetzner` GitHub App webhook → `coolify.habitualmen.com`.
