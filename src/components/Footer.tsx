@@ -96,10 +96,10 @@ export default function Footer() {
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/40 md:flex-row md:items-center">
           <div>© {year} Don Labs. All rights reserved. · donlabs.ai</div>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white/70">
+            <a href="/privacy" className="hover:text-white/70">
               Privacy
             </a>
-            <a href="#" className="hover:text-white/70">
+            <a href="/terms" className="hover:text-white/70">
               Terms
             </a>
           </div>

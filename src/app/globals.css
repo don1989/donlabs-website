@@ -60,6 +60,22 @@ body {
   .hairline {
     @apply border-t border-white/10;
   }
+
+  .prose-legal h2 {
+    @apply font-display text-xl font-medium tracking-tight text-bone md:text-2xl;
+  }
+
+  .prose-legal p {
+    @apply mt-4 text-base leading-relaxed text-white/70;
+  }
+
+  .prose-legal ul {
+    @apply mt-4 ml-5 list-disc space-y-2 text-base text-white/70 marker:text-accent;
+  }
+
+  .prose-legal a {
+    @apply text-accent underline-offset-4 hover:underline;
+  }
 }
 
 .bg-grid {
