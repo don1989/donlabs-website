@@ -97,7 +97,7 @@ export default function TermsPage() {
             <h2>Third-party links</h2>
             <p>
               This site links to third-party services such as LinkedIn,
-              Cal.com, and external research articles. We don&apos;t control
+              Calendly, and external research articles. We don&apos;t control
               those sites and we&apos;re not responsible for their content or
               their practices.
             </p>

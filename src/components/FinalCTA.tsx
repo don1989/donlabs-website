@@ -36,7 +36,7 @@ export default function FinalCTA() {
                   </svg>
                 </a>
                 <a
-                  href="https://calendly.com/dondemetrius"
+                  href="https://calendly.com/dondemetrius/30min"
                   className="btn-ghost"
                   target="_blank"
                   rel="noreferrer"

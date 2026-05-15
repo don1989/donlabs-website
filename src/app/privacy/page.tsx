@@ -94,8 +94,7 @@ export default function PrivacyPage() {
             <p>
               The email itself is forwarded to our inbox via Cloudflare Email
               Routing, then stored by our mail provider. Call bookings are
-              handled by a third-party scheduling tool (e.g. Cal.com), which
-              has its own privacy policy.
+              handled by Calendly, which has its own privacy policy.
             </p>
           </section>
 

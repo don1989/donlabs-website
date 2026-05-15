@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://calendly.com/dondemetrius"
+                  href="https://calendly.com/dondemetrius/30min"
                   className="text-white/75 hover:text-white"
                   target="_blank"
                   rel="noreferrer"
