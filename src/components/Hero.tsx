@@ -6,7 +6,7 @@ export default function Hero() {
 
       <div className="container-page relative">
         <div className="flex flex-col items-start">
-          <span className="eyebrow mb-6">Done-For-You AI · Security-first · Claude-native</span>
+          <span className="eyebrow mb-6">We build · You run · Claude wired in</span>
 
           <h1 className="font-display text-5xl font-medium leading-[1.02] tracking-tightest md:text-7xl lg:text-[88px]">
             You know you should
@@ -17,11 +17,10 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg text-white/70 md:text-xl">
-            Most businesses know AI is the unlock — they just don&apos;t know
-            where to start, or they&apos;re nervous to. Don Labs is the partner
-            that builds the tools and systems for you, wires Claude in so your
-            team can actually run them, and stays around long enough to make
-            sure it sticks.
+            You know AI could change how your business works. You&apos;re just
+            not sure where to start, or whether to trust it. We build the
+            tools, wire Claude into your day-to-day, and stick around long
+            enough that it actually lands with your team.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
@@ -38,10 +37,10 @@ export default function Hero() {
 
           <div className="mt-16 grid w-full grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 md:grid-cols-4">
             {[
-              ["Done", "For You — not DIY, not Done-With-You"],
-              ["Claude", "wired in, so you run it yourself"],
-              ["Security", "first — your data, your control"],
-              ["No ghost", "we don't fuck off after delivery"],
+              ["We build it", "your team runs it, not us"],
+              ["Claude inside", "wired into your tools so you can extend it"],
+              ["Security first", "your data, your control"],
+              ["No ghosting", "we stick around until it lands"],
             ].map(([stat, label]) => (
               <div key={label} className="bg-ink p-6 md:p-7">
                 <div className="font-display text-2xl font-medium tracking-tight md:text-3xl">

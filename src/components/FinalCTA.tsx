@@ -14,9 +14,9 @@ export default function FinalCTA() {
               </h2>
               <p className="mt-6 max-w-xl text-white/70 md:text-lg">
                 30 minutes, free, no pitch. We&apos;ll look at how your
-                business actually runs, pinpoint where AI will pay back
-                fastest, and you&apos;ll leave with a clear plan — whether or
-                not we work together.
+                business actually runs, pin down where AI will pay back
+                fastest, and you&apos;ll leave with a plan whether or not we
+                end up working together.
               </p>
             </div>
 

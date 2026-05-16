@@ -3,37 +3,37 @@ const services = [
     tag: "Automation",
     title: "Replace your spreadsheet rituals",
     body:
-      "The repeat work — quoting, reporting, chasing, reconciling — pulled out of spreadsheets and Slack threads and turned into an AI workflow that just runs. You watch it work; you don't operate it.",
+      "The repeat work that lives in spreadsheets and Slack threads. Quoting, reporting, chasing, reconciling. We turn it into a workflow that runs itself, so your team watches the output instead of doing the process.",
   },
   {
     tag: "Knowledge",
     title: "Your own AI assistant, trained on your business",
     body:
-      "Drop your docs, SOPs, contracts, and past projects into a private Claude-powered assistant that answers in your voice and your context. Onboard staff faster. Stop being the only person who knows the thing.",
+      "Drop your docs, SOPs, contracts and past projects into a private assistant powered by Claude. It answers in your tone and your context. Onboard new staff in a fraction of the time. Stop being the only person who knows how things work.",
   },
   {
     tag: "Customer-facing",
     title: "AI in your inbox, your forms, your funnel",
     body:
-      "Inbound leads triaged, quoted, and routed. Customer questions answered in seconds. We build the front-line AI so your team handles the work only humans should.",
+      "Inbound leads triaged, quoted and routed. Customer questions answered in seconds. We build the front line so your team can focus on the work only humans should be doing.",
   },
   {
-    tag: "Research & Analysis",
-    title: "Done-For-You research and reporting",
+    tag: "Research & analysis",
+    title: "Research and reporting on tap",
     body:
-      "Property comps, market scans, competitive intel, due-diligence packs — turned from a half-day job into a one-click report. Built around your data, with the sources cited so you can trust the output.",
+      "Property comps, market scans, competitive intel, due diligence packs. Half a day of digging becomes a one-click report. Built around your data, with every source cited so you can trust what comes out.",
   },
   {
     tag: "Onboarding",
     title: "We get your team comfortable with AI",
     body:
-      "Plain-English walkthroughs, recorded for whoever you hire next. No technical jargon. By the end, your team uses Claude like a co-worker — not a scary black box.",
+      "Walkthroughs in plain English, recorded so they're there for whoever you hire next. No jargon, no AI buzzwords. By the end your team treats Claude like a co-worker, not a black box.",
   },
   {
     tag: "Security",
-    title: "Security-first by default",
+    title: "Security is the default, not an add-on",
     body:
-      "We design every system so your data stays yours, secrets stay secret, and nothing leaves your control without your sign-off. Fear of AI is usually a fear of losing control — we remove both.",
+      "Every system we build keeps your data yours. Secrets stay secret. Nothing leaves your control without you signing it off. Most fear of AI is really fear of losing control, so we take that off the table.",
   },
 ];
 
@@ -51,9 +51,9 @@ export default function Services() {
             </h2>
           </div>
           <p className="mt-6 max-w-md text-white/60 md:mt-0">
-            Every engagement starts with one question: where is your team
-            spending hours on something a system should be doing? We build
-            around that — and only that.
+            Every engagement starts with one question. Where is your team
+            burning hours on something a system should be doing? We build
+            around that, and nothing else.
           </p>
         </div>
 

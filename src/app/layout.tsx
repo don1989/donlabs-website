@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Don Labs — Done-For-You AI for your business",
+  title: "Don Labs — AI tools built for your business",
   description:
-    "Don Labs builds the AI tools and systems that supercharge your work — done-for-you, security-first, and handed over with Claude wired in so your team can run it without us.",
+    "Don Labs builds the AI tools, automations and assistants your business actually needs. Security first, Claude wired in, and handed over so your team can run it without us.",
   metadataBase: new URL("https://donlabs.ai"),
   openGraph: {
-    title: "Don Labs — Done-For-You AI for your business",
+    title: "Don Labs — AI tools built for your business",
     description:
-      "We build the AI your business needs, teach you exactly how it works, and connect Claude so you can run it yourself. No DIY. No hand-holding forever. No developer who disappears.",
+      "We build the AI your business needs, teach your team how it works, and wire Claude in so you can run it yourself. No DIY. No retainer trap. No vanishing developer.",
     type: "website",
     url: "https://donlabs.ai",
   },

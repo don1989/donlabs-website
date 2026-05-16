@@ -25,10 +25,10 @@ export default function Partners() {
             Tool-agnostic.
           </h2>
           <p className="mt-6 text-white/65 md:text-lg">
-            We default to Claude — it&apos;s the model your team will actually
-            keep using, and it&apos;s the one we wire into your business so you
-            can extend things yourself. Everything else we pick to fit your
-            stack, not ours.
+            Claude is our default. It&apos;s the model your team will actually
+            keep using, and the one we wire into your business so you can
+            extend things yourself. Everything else, we pick to fit your stack
+            rather than ours.
           </p>
         </div>
 

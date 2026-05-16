@@ -1,24 +1,24 @@
 const steps = [
   {
     n: "01",
-    title: "Map the wins",
+    title: "Find the wins",
     body:
-      "We get on a call, learn how your business actually runs, and pinpoint the two or three places AI will pay for itself fastest. You leave with a clear plan — even if we never work together.",
-    bullets: ["No jargon, no decks", "Honest about what AI can't do", "Security + data review up front"],
+      "We get on a call and learn how your business actually runs. Then we pin down the two or three places AI will pay for itself fastest. You leave with a plan, even if we never end up working together.",
+    bullets: ["No jargon, no decks", "Honest about what AI can't do", "Security and data covered up front"],
   },
   {
     n: "02",
     title: "We build it for you",
     body:
-      "Done-For-You — not DIY, not Done-With-You. We design, build, and deploy the tools, automations and AI workflows your team needs. You don't need to learn LangChain. You don't need to hire a developer.",
-    bullets: ["Fixed scope, fixed timeline", "Connected to your real systems", "Security baked in from day one"],
+      "You don't have to learn prompt engineering. You don't have to hire a developer. We design, build and deploy the tools, automations and assistants your team needs, then bring you in once they work.",
+    bullets: ["Fixed scope and timeline", "Plugged into your real systems", "Security built in from day one"],
   },
   {
     n: "03",
     title: "Hand it over with Claude",
     body:
-      "This is the part everyone else skips. We wire Claude into your setup, teach you and your team exactly how everything works, and leave you able to extend it yourself. No retainer trap. No developer who fucks off.",
-    bullets: ["Claude wired into your workflow", "Plain-English walkthroughs", "You own the code, the prompts, everything"],
+      "This is the bit everyone else skips. We wire Claude into your setup, walk your team through how it all works, and leave you able to tweak and extend it yourself. No lock-in. No vanishing developer.",
+    bullets: ["Claude built into your workflow", "Walkthroughs in plain English", "You own the code and the prompts"],
   },
 ];
 
@@ -36,9 +36,9 @@ export default function HowWeWork() {
             </h2>
           </div>
           <p className="mt-6 max-w-md text-white/60 md:mt-0">
-            Most businesses get burned twice with AI: once by a developer who
-            charges a fortune and disappears, and once by a tool they can&apos;t
-            actually run. We do it the other way round.
+            Most businesses get burned twice with AI. Once by a developer who
+            charges a fortune and disappears. Once by a tool nobody can
+            actually operate. We do it the other way round.
           </p>
         </div>
 
