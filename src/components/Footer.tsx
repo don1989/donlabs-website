@@ -14,9 +14,9 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-white/55">
-              Done-For-You AI for businesses that know they should be using it
-              but don&apos;t know where to start. We build it, teach you, wire
-              Claude in, and leave you running it.
+              AI tools, automations and assistants for businesses that know
+              they should be using AI but aren&apos;t sure where to start. We
+              build it, wire Claude in, and leave you running it.
             </p>
           </div>
 

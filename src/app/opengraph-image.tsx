@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Don Labs — Done-For-You AI for businesses that know they should be using it";
+  "Don Labs — AI tools built for businesses that know they should be using AI";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -61,7 +61,7 @@ export default function OGImage() {
               letterSpacing: "0.18em",
             }}
           >
-            Done-For-You AI
+            AI, built for your business
           </div>
           <div
             style={{
@@ -100,7 +100,7 @@ export default function OGImage() {
             />
             <div>donlabs.ai</div>
           </div>
-          <div>Security-first · Claude-native</div>
+          <div>Security first · Claude inside</div>
         </div>
       </div>
     ),

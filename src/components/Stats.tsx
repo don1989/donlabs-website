@@ -1,7 +1,7 @@
 const items = [
   {
     big: "65%",
-    label: "of organisations now regularly use generative AI — nearly double in 10 months",
+    label: "of organisations now regularly use generative AI, nearly double the figure 10 months earlier",
     src: "McKinsey, State of AI 2024",
     href: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2024",
   },
@@ -31,10 +31,11 @@ export default function Stats() {
             will leave the rest behind.
           </h2>
           <p className="mt-6 text-white/65 md:text-lg">
-            Most know they should be using AI. Few know where to start, and
-            fewer still get past a half-finished prototype. The gap isn&apos;t
-            the technology any more — it&apos;s having someone in your corner
-            who&apos;ll actually build it and hand it over working.
+            Most businesses know they should be using AI. Few know where to
+            start, and fewer still get past a half-finished prototype. The
+            tech isn&apos;t the bottleneck any more. The bottleneck is finding
+            someone who can build it properly, hand it over working, and teach
+            your team to run it.
           </p>
         </div>
 

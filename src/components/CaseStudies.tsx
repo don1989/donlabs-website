@@ -11,7 +11,7 @@ const industries = [
 const outcomes = [
   {
     k: "Hours back",
-    v: "per week, on the work your team kept meaning to automate",
+    v: "every week, on the work your team kept meaning to automate",
   },
   {
     k: "Plain English",
@@ -19,7 +19,7 @@ const outcomes = [
   },
   {
     k: "You own it",
-    v: "every line of code, every prompt, every connection — yours",
+    v: "every line of code, every prompt, every connection is yours",
   },
 ];
 
@@ -70,14 +70,14 @@ export default function CaseStudies() {
               </h3>
               <p className="mt-6 text-white/70 md:text-lg">
                 I&apos;ve led engineering across games, fintech, e-commerce,
-                blockchain, and self-development products — building apps,
-                platforms, and the unglamorous systems behind them. Don Labs is
-                me taking that experience and using it to install AI into your
-                business, properly, so it actually changes how you work.
+                blockchain and self-development products. Apps, platforms, and
+                the unglamorous systems behind them. Don Labs is me taking
+                that experience and using it to put AI inside your business
+                properly, so it actually changes how you work.
               </p>
               <p className="mt-4 text-sm text-white/45">
-                Yes, that&apos;s a real photo. No, it&apos;s not AI-generated —
-                and neither is anything else on this site.
+                Yes, it&apos;s a real photo. No, it&apos;s not AI-generated.
+                Neither is anything else on this site.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-2">
@@ -94,9 +94,9 @@ export default function CaseStudies() {
               <figure className="mt-10 border-l-2 border-accent pl-5">
                 <blockquote className="text-base text-white/80 md:text-lg">
                   &ldquo;Most businesses don&apos;t need a 60-page AI strategy.
-                  They need someone to come in, find the highest-leverage two
-                  or three workflows, build them, and leave you running it. So
-                  that&apos;s what I do.&rdquo;
+                  They need someone to come in, find the two or three
+                  workflows with the biggest payoff, build them, and leave
+                  them running. That&apos;s what I do.&rdquo;
                 </blockquote>
                 <figcaption className="mt-3 text-sm text-white/50">
                   Don, founder of Don Labs

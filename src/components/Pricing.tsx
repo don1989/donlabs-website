@@ -1,36 +1,52 @@
 const tiers = [
   {
     name: "AI Kickstart",
-    price: "From £4,500",
-    cadence: "fixed scope · 2–3 weeks",
+    price: "Fixed price",
+    cadence: "Scoped on the strategy call · 2–3 weeks",
     blurb:
-      "One specific workflow — built, deployed, and handed over with Claude wired in. The fastest way to go from 'we should be doing this' to 'this is running'.",
+      "One workflow, built, deployed and handed over with Claude wired in. The quickest way to go from 'we should be doing this' to 'this is live and saving us hours'.",
     features: [
-      "Strategy call to pick the right first win",
-      "Done-For-You build of one workflow or assistant",
-      "Claude connected so you can extend it yourself",
-      "Plain-English walkthrough + recorded training",
-      "30 days of support after handover",
+      "Strategy call to find the right first win",
+      "Full build of one workflow or assistant",
+      "Claude connected so you can extend it later",
+      "Walkthrough in plain English, recorded for your team",
+      "30 days of support after launch",
     ],
     cta: "Book a strategy call",
     highlighted: false,
   },
   {
     name: "AI Install",
-    price: "From £12,000",
-    cadence: "fixed scope · 4–8 weeks",
+    price: "Fixed price",
+    cadence: "Scoped on the strategy call · 4–8 weeks",
     blurb:
-      "The full Done-For-You install. We pick two or three of the highest-leverage workflows, build the whole stack, secure it, and leave your team running everything without us.",
+      "The full install. We find the two or three workflows with the biggest payoff, build the whole stack, secure it properly, and leave your team running it without us in the room.",
     features: [
-      "Discovery + opportunity map for your business",
-      "Multiple workflows / assistants built end-to-end",
-      "Security review + safe data handling baked in",
-      "Claude wired into your day-to-day tools",
-      "Team training so you actually use it",
-      "60 days of support, then you own it",
+      "Discovery and opportunity map across your business",
+      "Multiple workflows and assistants, built end to end",
+      "Security review and safe data handling, built in",
+      "Claude wired into the tools you already use",
+      "Team training so it actually gets used",
+      "60 days of support, then it's all yours",
     ],
     cta: "Start the conversation",
     highlighted: true,
+  },
+  {
+    name: "AI Partner",
+    price: "Monthly",
+    cadence: "Pause any month · no long contract",
+    blurb:
+      "For teams that want us in their corner after the first build. New workflows, fixes, model upgrades and a direct line when something needs to change.",
+    features: [
+      "Pool of hours each month for builds, tweaks and upgrades",
+      "Quarterly review to spot the next wins",
+      "Priority response when something needs fixing",
+      "First in line when new Claude models ship",
+      "Pause or stop any month, no long contract",
+    ],
+    cta: "Talk about ongoing support",
+    highlighted: false,
   },
 ];
 
@@ -41,17 +57,19 @@ export default function Pricing() {
         <div className="max-w-2xl">
           <span className="eyebrow mb-4">Engagements</span>
           <h2 className="section-heading">
-            Two ways in.
+            Three ways in.
             <br />
-            Both fixed-price. Both yours to keep.
+            Pick the one that fits.
           </h2>
           <p className="mt-6 text-white/65 md:text-lg">
-            No monthly retainer trap. No mystery invoices. You pay for a
-            defined outcome — we build it, hand it over, and your team runs it.
+            Every build is scoped up front, every system is yours to keep,
+            and nothing is locked behind a retainer you can&apos;t leave.
+            Start with a single workflow, a full install, or stay on the
+            books for the long run.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {tiers.map((t) => (
             <div
               key={t.name}
@@ -72,7 +90,7 @@ export default function Pricing() {
                 </h3>
               </div>
               <div className="mt-6">
-                <div className="font-display text-4xl font-medium tracking-tightest md:text-5xl">
+                <div className="font-display text-3xl font-medium tracking-tightest md:text-4xl">
                   {t.price}
                 </div>
                 <div className="mt-2 text-sm text-white/50">{t.cadence}</div>
@@ -114,8 +132,9 @@ export default function Pricing() {
         </div>
 
         <p className="mt-10 text-sm text-white/45">
-          Not sure which fits? Book a free strategy call — we&apos;ll tell you
-          honestly, even if the answer is &quot;you don&apos;t need us yet&quot;.
+          Not sure which one fits? Book a free strategy call. We&apos;ll tell
+          you honestly, even if the answer is &quot;you don&apos;t need us
+          yet&quot;.
         </p>
       </div>
     </section>

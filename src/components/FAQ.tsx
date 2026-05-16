@@ -5,31 +5,39 @@ import { useState } from "react";
 const faqs = [
   {
     q: "I don't know anything about AI. Will I be able to use what you build?",
-    a: "Yes — that's the whole point. We build the system, we wire Claude into it, and we walk you and your team through it in plain English. By the end you'll be using it like a co-worker, not a scary black box. No prompt engineering degree required.",
+    a: "Yes, that's the whole point. We build the system, wire Claude into it, and walk you and your team through it in plain English. By the end you'll be using it like a co-worker, not a black box. No prompt engineering degree required.",
   },
   {
     q: "How is this different from hiring a developer?",
-    a: "Most developers charge a fortune, build something you can't operate, and disappear. We do the opposite: fixed price, fixed scope, and we hand it over with Claude connected so you can extend it yourself. We teach you how it works. No retainer trap.",
+    a: "Most developers charge a fortune, build something nobody can operate, then disappear. We do the opposite. Fixed price, fixed scope, and we hand it over with Claude connected so you can extend it yourself. We teach you how it works. No retainer trap.",
   },
   {
     q: "What about security and our data?",
-    a: "Security-first is the default, not an add-on. Your data stays where it should. Secrets stay secret. We design every system so nothing leaves your control without your sign-off — and we walk you through exactly what's running and where.",
+    a: "Security is the default, not an add-on. Your data stays where it should. Secrets stay secret. Nothing leaves your control without your sign-off, and we walk you through exactly what's running and where.",
+  },
+  {
+    q: "Why don't you list specific prices?",
+    a: "Because what we build depends entirely on what you need. A single workflow and a full install live at very different price points. Hop on a call, tell us what you're trying to fix, and we'll quote you something fixed and honest before you commit to anything.",
+  },
+  {
+    q: "Do you offer ongoing support after the build?",
+    a: "Yes. AI Partner is a monthly option for teams that want us in their corner long term. New workflows, fixes, model upgrades, and a direct line when something needs to change. It's optional, easy to pause, and most clients add it after a Kickstart or Install.",
   },
   {
     q: "Who actually does the work?",
-    a: "Don. 15 years of shipping production software across games, fintech, e-commerce, blockchain, and self-development products. No subcontractors, no offshore handoffs, no agency middle layer.",
+    a: "Don. 15 years shipping production software across games, fintech, e-commerce, blockchain and self-development products. No subcontractors, no offshore handoffs, no agency middle layer.",
   },
   {
     q: "How quickly can we start?",
-    a: "Usually one to two weeks from first call. We start with a free strategy call, agree on the one or two workflows that'll pay back fastest, and go from there.",
+    a: "Usually one to two weeks from the first call. We start free, agree on the one or two workflows that'll pay back fastest, and go from there.",
   },
   {
     q: "What if I'm not sure AI will help my business?",
-    a: "Book the strategy call anyway — it's free, and you'll leave with an honest answer. If AI isn't the right tool for what you're trying to do, we'll tell you. We'd rather not take the work than build something that doesn't earn its keep.",
+    a: "Book the call anyway. It's free, and you'll leave with an honest answer. If AI isn't the right tool for what you're doing, we'll say so. We'd rather not take the work than build something that doesn't earn its keep.",
   },
   {
     q: "What happens after you hand it over?",
-    a: "You own the code, the prompts, the connections — everything. Claude is wired in so you can extend and tweak workflows yourself. There's a built-in support window for questions, but no monthly fee, no lock-in. If you want us back for the next build, that's your choice.",
+    a: "You own everything. The code, the prompts, the connections. Claude is wired in so you can extend and tweak workflows yourself. There's a built-in support window after launch, with no required retainer and no lock-in. If you want us back, you can have us. If you want to take it from there, take it.",
   },
 ];
 
@@ -48,7 +56,7 @@ export default function FAQ() {
               we get most.
             </h2>
             <p className="mt-6 text-white/60">
-              Something not covered? Send us a note —{" "}
+              Something not covered? Send us a note at{" "}
               <a
                 href="mailto:hello@donlabs.ai"
                 className="text-accent underline-offset-4 hover:underline"
