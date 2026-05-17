@@ -1,15 +1,15 @@
 const stack = [
   "Claude",
-  "Anthropic API",
   "OpenAI",
-  "Next.js",
-  "Postgres",
-  "Vercel",
-  "n8n",
-  "Zapier",
-  "Notion",
-  "Slack",
+  "Microsoft 365",
   "Google Workspace",
+  "Slack",
+  "Notion",
+  "HubSpot",
+  "Airtable",
+  "Zapier",
+  "n8n",
+  "Make",
   "Your existing tools",
 ];
 

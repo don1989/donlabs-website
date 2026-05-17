@@ -44,11 +44,6 @@ body {
     @apply inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-white/50;
   }
 
-  .eyebrow::before {
-    content: "";
-    @apply block h-px w-6 bg-white/30;
-  }
-
   .section-heading {
     @apply font-display text-3xl font-medium leading-[1.05] tracking-tightest md:text-5xl;
   }

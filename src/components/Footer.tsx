@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#pricing" className="text-white/75 hover:text-white">
-                  Pricing
+                  Ways to work
                 </a>
               </li>
               <li>
