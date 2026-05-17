@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "How quickly can we start?",
-    a: "Usually one to two weeks from the first call. We start free, agree on the one or two workflows that'll pay back fastest, and go from there.",
+    a: "Usually one to two weeks from the first call. We agree on the one or two workflows that'll pay back fastest, and go from there.",
   },
   {
     q: "What if I'm not sure AI will help my business?",

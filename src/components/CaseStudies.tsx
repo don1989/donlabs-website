@@ -10,8 +10,8 @@ const industries = [
 
 const outcomes = [
   {
-    k: "Hours back",
-    v: "every week, on the work your team kept meaning to automate",
+    k: "Hours and £s back",
+    v: "every week, on the work your team kept meaning to automate. Teams typically save 10+ hours and £2k+ per workflow each month (McKinsey: gen-AI saves 60–70% of time on automatable tasks)",
   },
   {
     k: "Plain English",
@@ -74,10 +74,6 @@ export default function CaseStudies() {
                 the unglamorous systems behind them. Don Labs is me taking
                 that experience and using it to put AI inside your business
                 properly, so it actually changes how you work.
-              </p>
-              <p className="mt-4 text-sm text-white/45">
-                Yes, it&apos;s a real photo. No, it&apos;s not AI-generated.
-                Neither is anything else on this site.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-2">
